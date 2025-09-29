@@ -16,7 +16,7 @@ jobs:
       - name: Fetch Teleport binaries
         uses: teleport-actions/setup@v1
         with:
-          proxy: mycluster.cloud.gravitational.io:443 # replace with your Teleport cluster address
+          proxy: a4232.teleportdemo.com:443 # replace with your Teleport cluster address
           version: auto
       - name: Export ssh config
         run: tbot start --oneshot -c ./action_support/server_bot.yaml
