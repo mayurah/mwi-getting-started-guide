@@ -3,7 +3,7 @@ version: v2
 proxy_server: a4232.teleportdemo.com:443 # replace with your Teleport cluster address
 onboarding:
   join_method: github
-  token: github-bot
+  token: github-bot-mp
 certificate_ttl: 5m
 storage:
   type: memory
