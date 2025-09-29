@@ -23,4 +23,5 @@ jobs:
       - name: Run mpstat
         # replace target server address with yours
         run: |
-          ssh -F ./ssh_out/ssh_config ubuntu@a4232 mpstat
+          tsh ssh ubuntu@a4232 uptime
+          # ssh -F ./ssh_out/ssh_config ubuntu@a4232 mpstat
