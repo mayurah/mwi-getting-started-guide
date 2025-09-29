@@ -23,5 +23,5 @@ jobs:
       - name: Run mpstat
         # replace target server address with yours
         run: |
-          tsh ssh ubuntu@a4232 uptime
+          tsh --proxy=a4232.teleportdemo.com ssh ubuntu@a4232 uptime
           # ssh -F ./ssh_out/ssh_config ubuntu@a4232 mpstat
